@@ -1,7 +1,6 @@
-.inputLable{font-size: 12pt;
-            font-family: tahoma, helvetica, sans-serif;}
- 
-h1{font-family: Arial, Helvetica, sans-serif;}       
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}       
 
 p{
     font-size: 20px;
@@ -24,4 +23,7 @@ div{
 }
  
  
-
+.inputLable{
+    font-size: 12pt;
+    font-family: tahoma, helvetica, sans-serif;
+}
