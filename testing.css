@@ -1,0 +1,36 @@
+/*for testing :( */
+
+h1{
+    font-family: "Lucida Console", "Courier New", monospace;
+}       
+
+body{
+    background-color: aqua;
+}
+
+p{
+    background-color: #ccffcc;
+    font-size: 20px;
+    text-align: justify;
+}
+
+div{
+    background-color: bisque;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: .5em;
+    border-width: medium;
+    border-style: groove;
+}
+
+
+.blueFont{
+    color:blue;
+}
+ 
+ 
+.inputLable{
+    font-size: 12pt;
+    font-family: tahoma, helvetica, sans-serif;
+}
