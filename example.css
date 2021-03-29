@@ -1,26 +1,27 @@
-
-
 h1{
-    font-family: 'Oswald', sans-serif;
-    text-align: center;
+    font-family: 'Dela Gothic One', cursive;
 }       
 
 
 p{
     font-family: 'Ubuntu', sans-serif;
     font-size: 20px;
-    text-align: center;
 }
 
 div{
-    font-family: 'Ubuntu', sans-serif;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
     background-color: bisque;
     text-align: center;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    padding: .5em;
+    margin:10px;
+    padding: 5px;
+    border-width: thick;
+    border-style: double;
     border-width: medium;
-    border-style: groove;
+    border-color: brown;
+    height: 60px;
+    width: 500px;
+    
 }
 
 

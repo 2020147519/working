@@ -10,12 +10,12 @@
     </head>
 
     <body>   
-        <h1>Welcome to Signing Up page!</h1>
+        <h1>Welcome to <span class = "blueFont">Signing Up</span> page!</h1>
 
         <div>
             Create your Internet Programming account<br>
             Fill in information below<br>
-            You need to enter <span class = "blueFont">ID</span> and <span class = "blueFont">PW</span>
+            Please enter ID and PW
         </div>
 
 
@@ -24,7 +24,7 @@
 
         <p>
             <label>Name: 
-            <input type = "text" name = "name"/></label>
+            <input autofocus type = "text" name = "name"/></label>
             (John)
         </p>
 
@@ -45,7 +45,7 @@
 
         <p>
             <label>Job: 
-            <input type = "text" name = "Job" list = "jobs" placeholder="Select a job" autofocus/>    
+            <input type = "text" name = "Job" list = "jobs" placeholder="Select a job"/>    
                 <datalist id = "jobs">
                     <option value= "Student">
                     <option value = "Employee">
@@ -56,7 +56,7 @@
 
         <p>
             <label>ID: 
-            <input type = "text" name = "ID" required />     
+            <input type = "text" name = "ID" required autocomplete="on"/>     
             </label>
         </p>
 

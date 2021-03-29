@@ -20,6 +20,8 @@ div{
     padding: .5em;
     border-width: medium;
     border-style: groove;
+    height: 300px;
+    width: 70%;
 }
 
 
