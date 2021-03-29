@@ -2,7 +2,7 @@ h1{
     font-family: "Lucida Console", "Courier New", monospace;
 }   
 
-p{
+body p{
     background-color: #dfffcc;
     font-size: 20px;
     text-align: justify;
