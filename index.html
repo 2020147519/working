@@ -4,20 +4,66 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Testing</title>
+        <title>Sign Up</title>
         <link rel = "stylesheet" type = "text/css" href = "example.css">    
     </head>
 
-    <body>
+    <div>
+        Create your Internet Programming account<br>
+        Fill in information below<br>
+        You need to enter <span class = "blueFont">ID</span> and <span class = "blueFont">PW</span>
+    </div>
 
-        <h1>Hi<br></h1>
 
-        <p>Im JY<br>
-            I am student <br>
-            hi helloo <br>
-        </p>
+    <!-- 여기서 get submit써야되는지 확인해보기-->
+    <p><a href = "login.html">LOGIN</a></p>
 
-        <h1>Welcome to Signing Up page!</h1>
-    </body>
+    <p>
+        <label>Name: 
+        <input type = "text" name = "name"/></label>
+        (John)
+    </p>
+
+    <p>
+        <label>Birthday: 
+        <input type = "date" name = "Birthday"/>
+        </label>
+        (yyyy-mm-dd)
+    </p>
+
+    <p>
+        <label>Tel: 
+        <input type = "tel" name = "Tel" placeholder="(000) 000-0000" pattern="\(\d{3}\) +\d{3}-\d{4}"/>    
+        </label>
+        (full phone number)
+    </p>
+
+
+    <p>
+        <label>Job: 
+        <input type = "text" name = "Job" list = "jobs" placeholder="Select a job" />    
+            <datalist id = "jobs">
+                <option value= "Student">
+                <option value = "Employee">
+                <option value = "Unemplyed">
+            </datalist>
+        </label>
+    </p>
+
+    <p>
+        <label>ID: 
+        <input type = "text" name = "ID" required />     
+        </label>
+    </p>
+
+    <p>
+        <label>Password: 
+        <input type = "text" name ="Password" required />
+        </label>
+    </p>
+
+</body>
+
+
 
 </html>
