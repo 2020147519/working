@@ -1,3 +1,8 @@
+body{
+    background-color: blanchedalmond;
+}
+
+
 h1{
     font-family: 'Dela Gothic One', cursive;
 }       
@@ -11,7 +16,7 @@ p{
 div{
     position: relative;
     font-family: 'Source Sans Pro', sans-serif;
-    background-color: bisque;
+    background-color: rgb(225, 189, 228);
     text-align: center;
     margin:10px;
     padding: 5px;
@@ -26,7 +31,7 @@ div{
 
 
 .blueFont{
-    color:blue;
+    color:rgb(128, 128, 241);
     font-weight: bold;
 }
  
@@ -34,4 +39,11 @@ div{
 .inputLable{
     font-size: 12pt;
     font-family: tahoma, helvetica, sans-serif;
+}
+
+#Button{
+    border: 3px; width: 100px;
+    border-radius: 15px;
+    background-color:rgb(199, 199, 240);
+    text-align: center;
 }
